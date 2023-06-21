@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervace</title>
+    <link rel="stylesheet" href="Rezervace.css">
+
+</head>
+<body background="pozadí.jpg">
+  <h1>Rezervace</h1>
+  <a href="Hlavni_stranka.html" class="tlacitko">Hlavní<br>stránka</a>
+  <div>
+  <form id="dotaznikForm" >
+    <label for="jmeno">Jméno:</label>
+    <input type="text" id="jmeno" required>
+    
+    <label for="telefon">Telefonní číslo:</label>
+    <input type="tel" id="telefon" required>
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+    
+    <button type="submit">Odeslat</button>
+  </form>
+  
+  <script>
+    const dotaznikForm = document.getElementById('dotaznikForm');
+    
+    dotaznikForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+     
+      const jmeno = document.getElementById('jmeno').value;
+      const telefon = document.getElementById('telefon').value;
+      const email = document.getElementById('email').value;
+      
+    
+      
+      
+     
+      alert('Formulář úspěšně odeslán!');
+      
+      
+    });
+    
+    function validateForm(telefon) {
+     
+      const telefonRegex = /^\d{9}$/;
+      if (!telefonRegex.test(telefon)) {
+        alert('Neplatné telefonní číslo!');
+        return false;
+      }
+      
+      return true;
+    }
+  </script>
+  </div>
+</body>
+</html>
+
+</body>
+</html>

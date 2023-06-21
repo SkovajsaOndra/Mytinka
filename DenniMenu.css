@@ -1,0 +1,39 @@
+.tabulky
+{
+    background-color: white;
+}
+.pozadistranky{
+    background-color: rgba(251, 52, 52, 0.386);
+}
+table, tr, td{
+    background-color: rgb();
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+.tlacitko{
+    position: fixed;
+    
+    border: 3px solid black;
+    ;
+    padding: 10px 5px;
+    background-color: rgba(131, 131, 131, 0.25);  
+    color: black;
+}
+.tlacitko:hover{
+    background-color: rgba(131, 131, 131, 0.6);
+}
+.nadpis{
+    text-align: center;
+    color: burlywood;
+}
+h1 {
+    text-align: center;
+    }
+footer{
+    background-color: antiquewhite;
+}
+
+.obrazek{
+    text-align: center;
+}

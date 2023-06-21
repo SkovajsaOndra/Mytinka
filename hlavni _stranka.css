@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+
+ }           
+ h2 {font-size: large;
+
+ }
+ 
+ .nadpis2{
+    text-align: right;
+ }
+ .odkazy{
+    text-align: right;
+    color: black;
+   
+ }
+ .noha{
+    background-color:antiquewhite;
+ }
+.nohatext{
+    color: black;
+}
+.tlacitko1{
+    
+
+border: 3px solid black;
+;
+padding: 10px 5px;
+background-color: rgba(131, 131, 131, 0.25);  
+color: black;
+} 
+.tlacitko2{
+    
+
+    border: 3px solid black;
+    ;
+    padding: 10px 5px;
+    background-color: rgba(131, 131, 131, 0.25);  
+    color: black;
+    } 

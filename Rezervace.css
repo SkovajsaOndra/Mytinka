@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+   
+        text-decoration: underline;
+       
+     
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .tlacitko{
+    position: fixed;
+    
+    border: 3px solid black;
+    ;
+    padding: 10px 5px;
+    background-color: rgba(131, 131, 131, 0.25);  
+    color: black;
+  }
+
+  
+  
+  
+ 
